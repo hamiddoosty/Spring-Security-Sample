@@ -16,4 +16,11 @@ public class DemoController {
 		return "leaders";
 	}
 	
+	//add request /systems
+	@GetMapping("/systems")
+	public String showSystems() {		
+		return "systems";
+	}
+
+
 }
