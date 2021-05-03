@@ -18,6 +18,11 @@
 		Role(s):<security:authentication property="principal.authorities"  />
 	</p>
 	<hr>
+		<p>
+			<a href="${pageContext.request.contextPath}/leaders"> LeaderShip Meeting</a>
+			(only for manager peeps)
+		</p>
+	<hr>
 	<br><br>
 	<form:form action="${pageContext.request.contextPath}/logout" 
 			   method="POST">
